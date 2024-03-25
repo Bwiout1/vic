@@ -1,2 +1,2 @@
 # vic
-My First Work In ChengDu
+My First Work In ChengDu，Andiroid 
