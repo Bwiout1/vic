@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Frames Studio</string>
+    <string name="authorization_succeeded">인증 성공!</string>
+    <string name="checkPermission_Authorization_succeeded">checkPermission: 승인 성공!</string>
+    <string name="please_open_the_relevant_permissions_otherwise_the_application_cannot_be_used_normally">해당 권한을 열어주세요. 그렇지 않으면 애플리케이션을 정상적으로 사용할 수 없습니다!</string>
+    <string name="draw">그리기</string>
+    <string name="image_saved_successfully">이미지가 성공적으로 저장되었습니다!</string>
+    <string name="save">저장</string>
+    <string name="select_frames">프레임 선택</string>
+    <string name="next">다음</string>
+    <string name="recent_photos">최근 사진</string>
+    <string name="gallery">갤러리</string>
+    <string name="my_gallery">내 갤러리</string>
+    <string name="photo_edit">사진 편집</string>
+    <string name="shapes">모양</string>
+    <string name="frame_category">프레임 카테고리</string>
+    <string name="delete">삭제</string>
+    <string name="are_you_sure_want_to_exit">정말 종료하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+</resources>

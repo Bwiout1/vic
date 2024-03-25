@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Frames Studio</string>
+    <string name="authorization_succeeded">Autorizzazione riuscita!</string>
+    <string name="checkPermission_Authorization_succeeded">checkPermission: Autorizzazione riuscita!</string>
+    <string name="please_open_the_relevant_permissions_otherwise_the_application_cannot_be_used_normally">Si prega di aprire le autorizzazioni pertinenti, altrimenti l\'applicazione non può essere utilizzata normalmente!</string>
+    <string name="draw">Disegna</string>
+    <string name="image_saved_successfully">Immagine salvata con successo!</string>
+    <string name="save">Salva</string>
+    <string name="select_frames">Seleziona frame</string>
+    <string name="next">Avanti</string>
+    <string name="recent_photos">Foto recenti</string>
+    <string name="gallery">Galleria</string>
+    <string name="my_gallery">La mia galleria</string>
+    <string name="photo_edit">Modifica foto</string>
+    <string name="shapes">Forme</string>
+    <string name="frame_category">Categoria frame</string>
+    <string name="delete">Elimina</string>
+    <string name="are_you_sure_want_to_exit">Sei sicuro di voler uscire?</string>
+    <string name="yes">SÌ</string>
+    <string name="no">NO</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Frames Studio</string>
+    <string name="authorization_succeeded">授權成功！</string>
+    <string name="checkPermission_Authorization_succeeded">checkPermission：授權成功！</string>
+    <string name="please_open_the_relevant_permissions_otherwise_the_application_cannot_be_used_normally">請開放相關權限，否則應用無法正常使用！</string>
+    <string name="draw">繪製</string>
+    <string name="image_saved_successfully">圖片保存成功！</string>
+    <string name="save">保存</string>
+    <string name="select_frames">選擇幀</string>
+    <string name="next">下一個</string>
+    <string name="recent_photos">最近照片</string>
+    <string name="gallery">圖庫</string>
+    <string name="my_gallery">我的畫廊</string>
+    <string name="photo_edit">照片編輯</string>
+    <string name="shapes">形狀</string>
+    <string name="frame_category">框架類別</string>
+    <string name="delete">刪除</string>
+    <string name="are_you_sure_want_to_exit">您確定要退出嗎？</string>
+    <string name="yes">是</string>
+    <string name="no">否่</string>
+</resources>

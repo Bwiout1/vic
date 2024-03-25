@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Frames Studio</string>
+    <string name="authorization_succeeded">การอนุญาตสำเร็จแล้ว!</string>
+    <string name="checkPermission_Authorization_succeeded">checkPermission: การอนุญาตสำเร็จ!</string>
+    <string name="please_open_the_relevant_permissions_otherwise_the_application_cannot_be_used_normally">โปรดเปิดการอนุญาตที่เกี่ยวข้อง มิฉะนั้น แอปพลิเคชันจะไม่สามารถใช้งานได้ตามปกติ!</string>
+    <string name="draw">วาด</string>
+    <string name="image_saved_successfully">บันทึกรูปภาพเรียบร้อยแล้ว !</string>
+    <string name="save">บันทึก</string>
+    <string name="select_frames">เลือกเฟรม</string>
+    <string name="next">ถัดไป</string>
+    <string name="recent_photos">รูปภาพล่าสุด</string>
+    <string name="gallery">คลังภาพ</string>
+    <string name="my_gallery">แกลเลอรี่ของฉัน</string>
+    <string name="photo_edit">แก้ไขรูปภาพ</string>
+    <string name="shapes">รูปร่าง</string>
+    <string name="frame_category">ประเภทเฟรม</string>
+    <string name="delete">ลบ</string>
+    <string name="are_you_sure_want_to_exit">แน่ใจหรือ ต้องการออก?</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+</resources>

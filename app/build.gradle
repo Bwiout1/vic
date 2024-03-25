@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+    //---todo------------this plugin must apply to application module
+//    id 'com.fyber.fairbid-sdk-plugin'
+    id 'com.vt.fairbid-sdk-plugin-crack'
+
+    id 'kotlin-android'
+//    id 'AndMask'
+    //todo copy
+    id 'ObfuscateJava'
+}
+
+obfuscateJava{
+//    pluginEnable = false                  //是否启用插件（默认开启）
+    mainModule = "app"                      //加密的主module
+    library = ["sdkRes","depBridge"]        //主module引入的其他需要加密的module
+    allatoriDir = "sdkRes/allatori"         //allatori工具存放目录
+    targetDir = "com/sun/dex/core/"         //DexLoader.java所在路径
+    verbose = true
+}
+
+android {
+    namespace 'com.cerdillac.proccd.qwer'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.cerdillac.proccd.qwer"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs ("en", "de", "es", "fr", "in", "ja", "ko", "ms", "pt", "th", "zh-rTW")
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('./649be1513d373.jks')
+            storePassword '649be1513d373'
+            keyAlias 'key0'
+            keyPassword '649be1513d373'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+
+            ndk {
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation project(path: ':sdkRes')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+}

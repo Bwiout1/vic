@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Photo Frames Master</string>
+    <string name="authorization_succeeded">Authorization succeeded!</string>
+    <string name="checkPermission_Authorization_succeeded">checkPermission: Authorization succeeded!</string>
+    <string name="please_open_the_relevant_permissions_otherwise_the_application_cannot_be_used_normally">Please open the relevant permissions, otherwise the application cannot be used normally!</string>
+    <string name="image_saved_successfully">Image saved successfully !</string>
+    <string name="save">Save</string>
+    <string name="select_frames">Select Frames</string>
+    <string name="next">Next</string>
+    <string name="recent_photos">Recent Photos</string>
+    <string name="gallery">Gallery</string>
+    <string name="my_gallery">My Gallery</string>
+    <string name="shapes">Shapes</string>
+    <string name="frame_category">Frame Category</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_want_to_exit">Are you sure, want to Exit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="draw">Draw</string>
+    <string name="photo_edit">Photo Edit</string>
+</resources>
